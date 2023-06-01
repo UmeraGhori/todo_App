@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assignment-1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Main" style="background-color: wheat;"> <h1 class="text"></h1>
+        <div id="Main-left">
+            <h1>TO DO LIST</h1>
+            <div>
+                <label >Please Enter the task</label>
+                <input type="text" id="taskinput"><br><br>
+            </div>
+            <button id="addTask" style="background-color: aqua;">Add Task</button>
+            <button id="addPriority" style="background-color: aqua;">Add Priority</button>
+            <button id="delTask" style="background-color: black; color: red;">Delete all task</button>
+        </div>
+        <div id="Main-right">
+            <h2 style="background-color: wheat;">Tasks to do</h2>
+            <ul id = "tasks" style="background-color: wheat;">
+                <div class="todo">
+                    <li class="todo-item">Buy Milk</li>
+                    <button class="completebtn" id = "1">Completed</button>
+                    <button   class="deletebtn" id = "1">Delete</button>
+                </div>
+                <div class="todo">
+                    <li class="todo-item">Buy water</li>
+                    <button  id = "2" class="completebtn">Completed</button>
+                    <button  id = "2" class="deletebtn">Delete</button>
+                </div>        
+                <div class="todo">
+                    <li class="todo-item">Buy jam</li>
+                    <button id = "3" class="completebtn">Completed</button> 
+                    <button id = "3" class="deletebtn">Delete</button>            
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script src="./Assignment-1.js"></script>
+</body>
+
+</html>

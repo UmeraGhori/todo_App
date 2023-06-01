@@ -1,0 +1,34 @@
+*{
+    background-color: red;
+}
+#Main{
+    display: flex;
+}
+.text{
+    margin: auto;
+    background-color: wheat;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+#Main-left{
+    flex-basis: 50%;
+    background-color: wheat;
+    margin-top: 15%;
+}
+
+#Main-right{
+    flex-basis: 50%;
+    padding-left: 100px;
+    background-color: wheat;
+    margin-top: 15%;
+}
+
+.completebtn{
+    background-color: green;
+}
+
+.deletebtn{
+    background-color: black;
+    color: white;
+}
